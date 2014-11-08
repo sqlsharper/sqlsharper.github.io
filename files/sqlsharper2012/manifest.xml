@@ -1,0 +1,26 @@
+<Manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ApplicationStart></ApplicationStart>
+  <AppName>SqlSharper2012</AppName>
+  <Company>CnSharp Studio</Company>
+  <MinVersion>1.2.0.0</MinVersion>
+  <ReleaseDate>2014/9/27 13:13:01</ReleaseDate>
+  <ReleaseUrl>http://www.sqlsharper.com/files/sqlsharper2012/</ReleaseUrl>
+  <ReleaseVersion>1.2.0.0</ReleaseVersion>
+  <ShortcutIcon />
+  <Packaged>true</Packaged>
+  <WebSite />
+  <UpdateDescription><![CDATA[<p>
+	+ New Feature:Select Top 100 Rows DESC in Table</p>
+<p>
+	+ New Feature:Code generator on Database level</p>
+<p>
+	# BugFix:data scripter bug on computed columns</p>
+]]></UpdateDescription>
+  <Files>
+    <ReleaseFile>
+      <FileName>SqlSharper2012_1.2.0.0.zip</FileName>
+      <FileSize>1690812</FileSize>
+      <Version>1.2.0.0</Version>
+    </ReleaseFile>
+  </Files>
+</Manifest>
