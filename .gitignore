@@ -4,3 +4,5 @@ images/screenshots/Thumbs.db
 images/Thumbs.db
 
 jekyll-bootstrap.zip
+
+_site/*
