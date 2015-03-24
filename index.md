@@ -7,22 +7,35 @@ tagline: Make your SSMS sharper!
 ---
 {% include JB/setup %}
 
+
+
 <section class="featured">
-        <div class="content-wrapper">
-            <hgroup class="title">
-                <h1>SQL Sharper </h1>
-                <h2>is an add-in for SQL Server Management Studio(SSMS)</h2>
-            </hgroup>
-            <p>
-                A power tool designed for SQL Server developers to make SSMS even more easy to use.<br/>
-                Most important,<br/>
-               It is Free Now!
-            </p>
-        </div>
+        
 </section>
 
 <section class="content-wrapper main-content clear-fix">
-                
+ 
+ <div class="clear-fix"> 
+<div class="float-left">
+            <hgroup class="title">
+                <h1>SQL Sharper 2014</h1>
+                <h2>is coming out.</h2>
+            </hgroup>
+            <p>
+
+                An add-in designed for SQL Server developers to make SSMS even more easy to use.
+               </p>
+               <p> 
+                It supports SSMS 2014 now,while backward-compatible with SSMS 2012.
+             </p>
+               <p>
+               New features: <br/>
+               Query History
+            </p>
+
+        </div>
+         <div class="float-right"><img src="images/sql_server_logo.png"></div>
+ </div>               
 <h3>Features:</h3>
 <ol class="round">
     <li class="one">
@@ -38,7 +51,10 @@ tagline: Make your SSMS sharper!
 
     <li class="three">
         <h5>Convert Values to Select-In Statement</h5>
-       Format a group of irregular values which is one-per-line to IN clause,such as 'WHERE [ID] IN (1,13,31,86)'
+       Format a group of irregular values which is one-per-line to IN clause,such as 'WHERE [ID] IN (1, <br/>
+       13,<br/>
+       31,<br/>
+       86)'
     </li>
     
     <li class="four">
@@ -65,6 +81,10 @@ tagline: Make your SSMS sharper!
         A template-based code generator for you to generate application code from table/view/stored procedure in C#/Java/PHP or other languages.
         <br/>
         There are some samples built in,for more,you should edit template by yourself.
+    </li>
+     <li class="nine">
+        <h5>Query History</h5>
+        A pane records every statements you executed.
     </li>
     <p>
         <a href="/features.html">Learn more…</a> 

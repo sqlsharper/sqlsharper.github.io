@@ -109,10 +109,11 @@ h5, h6 {
         padding-left: 10px;
         padding-top: 30px;
     }
-
+/*
     .featured + .main-content {
         background: url("../images/heroAccent.png") no-repeat;
     }
+    */
 
 header .content-wrapper {
     padding-top: 20px; 
@@ -207,6 +208,10 @@ ul#menu {
 
 /* page elements
 ----------------------------------------------------------*/
+.topbg{
+    background: url("../images/sqlbg.png") right top no-repeat;
+    padding: 20px 40px 30px 40px;
+}
 /* featured */
 .featured {
     background-color: #fff;
@@ -224,7 +229,7 @@ ul#menu {
     }
 
         .featured hgroup.title h1, .featured hgroup.title h2 {
-            color: #fff;
+            color:#fff;
         }
 
         .featured p {
