@@ -9,9 +9,6 @@ tagline: Make your SSMS more sharper!
 {% include JB/setup %}
 
 <section class="featured">
-
-        
-
 </section>
 
 <section class="content-wrapper main-content clear-fix">
