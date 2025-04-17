@@ -20,16 +20,19 @@ tagline: Make your SSMS more sharper!
                 <h2>is imminent...</h2>
             </hgroup>
             <p>
-
                 An add-in designed for SQL Server developers to make SSMS even more Sharper.
-               </p>
-               <p>
-                SQL Sharper 20 is currently in development, offering support for SSMS 20 while maintaining backward compatibility with SSMS 18/19.
-             </p>
+            </p>
+            <p>
+                SQL Sharper 20 is currently in development, offering support for SSMS 20 
+            </p>
+            <p>
+                while maintaining backward compatibility with SSMS 18/19.
+            </p>
 
         </div>
         <div class="float-right"><img src="images/ssms-logo.png"></div>
     </div>               
+
 <h3>Features:</h3>
 <ol class="round">
 
