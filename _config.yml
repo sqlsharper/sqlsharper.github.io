@@ -8,7 +8,7 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : SQL Sharper -  Make your SSMS2012 More Sharper
+title : SQL Sharper -  Make your SSMS More Sharper
 tagline: Site Tagline
 author :
   name : CnSharp Studio
