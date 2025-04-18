@@ -1,1 +1,16 @@
-<script type="text/javascript" src="http://js.tongji.linezing.com/3581724/tongji.js"></script><noscript><a href="http://www.linezing.com"><img src="http://img.tongji.linezing.com/3581724/tongji.gif"/></a></noscript>
+{% if site.safe and site.JB.analytics.provider and page.JB.analytics != false %}
+
+{% case site.JB.analytics.provider %}
+{% when "google" %}
+  {% include JB/analytics-providers/google %}
+{% when "getclicky" %}
+  {% include JB/analytics-providers/getclicky %}
+{% when "mixpanel" %}
+  {% include JB/analytics-providers/mixpanel %}
+{% when "piwik" %}
+  {% include JB/analytics-providers/piwik %}
+{% when "custom" %}
+  {% include custom/analytics %}
+{% endcase %}
+
+{% endif %}
