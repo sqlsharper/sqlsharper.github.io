@@ -102,6 +102,9 @@ h5 a:active {
     text-decoration: none;
 }
 
+.center {
+    text-align: center;
+}
 
 /* main layout
 ----------------------------------------------------------*/
