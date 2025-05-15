@@ -24,7 +24,8 @@ Environment:
 
 ### Release Notes
 *SQL Sharper 20*
-- **20.0.0 : 2025.5.15 **
+
+- **20.0.0 : 2025.5.15**
     - New Feature: SSMS 20/19/18 support.
     - Improve: Optimize query history function and persistence strategy.
     - BugFix: Fix the issues in the pervious version.
