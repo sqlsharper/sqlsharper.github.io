@@ -21,10 +21,6 @@ Environment:
 
 ### Previous Versions
 * [SQL Sharper 2014 (SSMS 2014/2012)](/files/sqlsharper2014/sqlsharper2014_setup.exe)
-<!-- 
-* [SQL Sharp 2008](http://www.cnsharp.com/files/sqlsharp_2008_2.0.zip)
-* [SQL Sharp 2005 (SSMS 2005 SP1+ required)](http://www.cnsharp.com/files/sqlsharp_2005_1.0.zip)  
--->
 
 ### Release Notes
 *SQL Sharper 20*
