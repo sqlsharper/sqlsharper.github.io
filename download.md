@@ -7,7 +7,7 @@ weight: 3
 ---
 {% include JB/setup %}
 
-### SQL Sharper 20
+## SQL Sharper 20
 <p>
 Environment:
     <ul>
@@ -19,52 +19,30 @@ Environment:
 
 [![Download](/images/download.png)](/files/sqlsharper20/SqlSharper20.msi)
 
-### Previous Versions
+## Previous Versions
 * [SQL Sharper 2014 (SSMS 2014/2012)](/files/sqlsharper2014/sqlsharper2014_setup.exe)
 
-### Release Notes
+## Release Notes
 *SQL Sharper 20*
 
-- **20.0.0 : 2025.5.15**
-    - New Feature: SSMS 20/19/18 support.
-    - Improve: Optimize query history function and persistence strategy.
-    - BugFix: Fix the issues in the pervious version.
+## [20.1.0] - 2025-06-26
 
-*SQL Sharper 2014*
+### Added
 
-- **2.0.0 : 2015.3.22**
+- New SQL formatter.
+- Copy query results to clipboard as CSV/JSON/XML.
+- Export query results to JSON/XML files.
 
-    - New Feature: SSMS 2014 support.
+## [20.0.0] - 2025-05-15
 
-*SQL Sharper 2012*
+### Added
 
-- **1.2.0 : 2014.12.01**
+- SSMS 20/19/18 support.
 
-    - New Feature: 'SELECT TOP 100 ROW DESC' in Table ContextMenuStrip.
-    - Improve:Implement 'Script Data as INSERT' by row constructor.
+### Changed
 
-- **1.1.3 : 2014.03.27**
+- Optimize query history function and persistence strategy.
 
-    - Improve:Query History popup window no longer always active after command executed,replaced by a ToolStripButton.
-    - Improve:Compatibility for SSMS Express.
+### Fixed
 
-- **1.1.2 : 2014.01.24**
-
-    - New Feature:Add stored procedure search in Object Explorer.
-
-- **1.1.1 : 2013.12.06**
-
-    - BugFix:Format Char Values for SELECT-IN statement.
-
-- **1.1.0 : 2013.12.03**
-
-    - New Feature:Query history view
-
-- **1.0.0 : 2013.09.10**
-
-    - New Feature:View SQL project files in Windows Explorer by ContextMenuStrip.
-    - New Feature:Add DB objects cache which full table schema exporting is depended on it.
-    - Improve:Export Results Grid data without query DB once again.
-    - Improve:DB object searcher can locate selected object in DB object explorer.
-    - Improve:Format SELECT-IN statements judge numeric values&nbsp;intelligently.
-    - BugFix:a few bugs in Code Generator.
+- Fix the issues in the pervious version.

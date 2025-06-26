@@ -4,14 +4,14 @@
   <AppName>SqlSharper20</AppName>
   <Owner>CnSharp Studio</Owner>
   <MinVersion>20.0.0</MinVersion>
-  <ReleaseDate>2025-05-13T23:51:49.0252427+08:00</ReleaseDate>
+  <ReleaseDate>2025-06-26T00:00:00+08:00</ReleaseDate>
   <ReleaseUrl>https://sqlsharper.com/files/sqlsharper20/SqlSharper20.msi</ReleaseUrl>
-  <ReleaseVersion>20.0.0</ReleaseVersion>
+  <ReleaseVersion>20.1.0</ReleaseVersion>
   <Id>SqlSharper20</Id>
   <WebSite />
   <Tags />
   <Language />
   <Copyright>Copyright © CnSharp Studio 2010-2025</Copyright>
-  <ReleaseNote><![CDATA[<li>Initial version.</li>]]></ReleaseNote>
+  <ReleaseNote><![CDATA[<li>New SQL formatter;More types for copying/exporting query results.</li>]]></ReleaseNote>
   <Description><![CDATA[An SSMS enhancement extension.]]></Description>
 </Manifest>
