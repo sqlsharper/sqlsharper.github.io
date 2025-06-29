@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Manifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntryPoint>SqlSharper.pkgdef</EntryPoint>
+  <AppName>SqlSharper21</AppName>
+  <Owner>CnSharp Studio</Owner>
+  <MinVersion>21.0.0</MinVersion>
+  <ReleaseDate>2025-06-27T00.00.00+08:00</ReleaseDate>
+  <ReleaseUrl>https://sqlsharper.com/files/sqlsharper21/SqlSharper21.msi</ReleaseUrl>
+  <ReleaseVersion>21.0.0</ReleaseVersion>
+  <Id>SqlSharper21</Id>
+  <WebSite />
+  <Tags />
+  <Language />
+  <Copyright>Copyright &copy; CnSharp Studio 2010-2025</Copyright>
+  <ReleaseNote><![CDATA[Initial version for SSMS 21.]]></ReleaseNote>
+  <Description><![CDATA[An SSMS enhancement extension.]]></Description>
+</Manifest>

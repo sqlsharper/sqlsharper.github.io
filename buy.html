@@ -44,11 +44,16 @@ header: Buy
             <input type="text" id="name" name="name" maxlength="50"><br>
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email" maxlength="50"><br>
+            <label for="version">Version:</label><br>
+            <select id="version" name="version">
+                <option value="21">SQL Sharper 21</option>
+                <option value="20">SQL Sharper 20</option>
+            <br>
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="8" cols="50">
 Dear Support Team,
 
-I have successfully completed the $29 PayPal payment for SQL Sharper 20. Please send me the activation code at your earliest convenience.
+I have successfully completed the $29 PayPal payment for SQL Sharper 21. Please send me the activation code at your earliest convenience.
 
 Thank you!
      </textarea><br><br>
@@ -67,3 +72,15 @@ Thank you!
         </div>
     </div>
 </article>
+
+
+<script>
+    var currentVersion = '21';
+    $(document).ready(function() {
+        $('#version').change(function() {
+            var selectedVersion = $(this).val();
+            $('#message').val($('#message').val().replace('SQL Sharper ' + currentVersion, 'SQL Sharper ' + selectedVersion));
+            currentVersion = selectedVersion;
+        });
+    });
+</script>
