@@ -3,10 +3,10 @@
   <EntryPoint>SqlSharper.pkgdef</EntryPoint>
   <AppName>SqlSharper21</AppName>
   <Owner>CnSharp Studio</Owner>
-  <MinVersion>21.0.0</MinVersion>
-  <ReleaseDate>2025-06-27T00.00.00+08:00</ReleaseDate>
+  <MinVersion>21.0.1</MinVersion>
+  <ReleaseDate>2025-11-16T00.00.00+08:00</ReleaseDate>
   <ReleaseUrl>https://sqlsharper.com/files/sqlsharper21/SqlSharper21.msi</ReleaseUrl>
-  <ReleaseVersion>21.0.0</ReleaseVersion>
+  <ReleaseVersion>21.0.1</ReleaseVersion>
   <Id>SqlSharper21</Id>
   <WebSite />
   <Tags />
